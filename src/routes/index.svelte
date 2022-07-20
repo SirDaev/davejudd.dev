@@ -1,11 +1,11 @@
 <svelte:head>
-	<title>DaveJudd.dev</title>
+	<title>Dave Judd | Front End Web Developer from Minneapolis, MN, USA</title>
 </svelte:head>
 
 <script>
   import Container910 from '$lib/container-910.svelte';
   import Button from '$lib/button.svelte';
-  import QuoteBox from '$lib/quotebox.svelte';
+  import Testimonial from '$lib/testimonial.svelte';
   import dave from '$lib/assets/dave-sitting-with-laptop.jpg'
 </script>
 
@@ -14,7 +14,7 @@
     <div class="content">
       <h1 class="hero-title text-blue">Hi, my<br />name is <span class="text-semibold">Dave</span>.</h1>
       <h2 class="hero-subtitle">
-        I'm a <span class="text-bold">front-end web developer</span><br />in Minneapolis, MN, USA
+        I'm a <span class="text-bold">front-end web developer</span><br />in Minneapolis, MN, USA.
         <img class="hero-dave" src={dave} alt="dave sitting at a table with laptop" />
       </h2>
     </div>
@@ -26,7 +26,7 @@
     <div class="content">
       <h2 class="big-title jamstack-title"><div class="jamstack-blob text-blue">JAM</div> is my stack</h2>
       <p class="p-large"> 
-        I have a passion for building fast fast, scalable, modern websites.<br />
+        I have a passion for building fast fast, scalable, modern websites and web applications.<br />
         <a href="/">Learn more</a>
       </p>
       <div class="icons">
@@ -45,10 +45,8 @@
 <section id="testimonials">
   <Container910 class="text-center">
     <div class="content">
-      <h2 class="big-title">Satisfied clients</h2>
-      <p class="p-large"> 
-        Testimonial
-      </p>
+      <h2 class="big-title"><span class="underline-pink">Satisfied</span> clients</h2>
+      <Testimonial />
     </div>
   </Container910>
 </section>
@@ -64,14 +62,6 @@
         </Button>
       </div>
     </div>
-  </Container910>
-</section>
-
-<section id="testimonial">
-  <Container910>
-    <QuoteBox>
-      quote
-    </QuoteBox>
   </Container910>
 </section>
 

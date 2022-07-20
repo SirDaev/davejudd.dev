@@ -30,6 +30,11 @@
     line-height: 1.2;
   }
 
+  :global(.p-medium) {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+
   :global(.p-large) {
     font-size: 2.8rem;
     line-height: 1.2;
