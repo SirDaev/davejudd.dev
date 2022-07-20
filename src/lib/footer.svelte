@@ -4,7 +4,7 @@
   
   <footer>
     <Container1200>
-      <p>Copyright © 2022 Dave Judd. All rights reserved.</p>
+      <p>© 2022 DaveJudd.dev | All rights reserved.</p>
     </Container1200>
   </footer>
   

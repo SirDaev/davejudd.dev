@@ -30,8 +30,25 @@
         <a href="/">Learn more</a>
       </p>
       <div class="icons">
-        ICONS
+        <img src="images/icons/js-icon.svg" alt="javascript icon" />
+        <img src="images/icons/svelte-icon.svg" alt="svelte icon" />
+        <img src="images/icons/react-icon.svg" alt="react icon" />
+        <img src="images/icons/mongodb-icon.svg" alt="mongodb icon" />
+        <img src="images/icons/gatsby-icon.svg" alt="gatsby icon" />
+        <img src="images/icons/nextjs-icon.svg" alt="nextjs icon" />
+        <img src="images/icons/netlify-icon.svg" alt="netlify icon" />
       </div>
+    </div>
+  </Container910>
+</section>
+
+<section id="testimonials">
+  <Container910 class="text-center">
+    <div class="content">
+      <h2 class="big-title">Satisfied clients</h2>
+      <p class="p-large"> 
+        Testimonial
+      </p>
     </div>
   </Container910>
 </section>
@@ -40,7 +57,7 @@
   <Container910 class="text-center">
     <div class="content">
       <h2 class="big-title">Let's make<br />something <span class="underline-pink">great</span>!</h2>
-      <p class="p-large">Have an idea for a website or web project?  Ut enim ad minim.</p>
+      <p class="p-large">Have an idea for a website or web project? I'd love to hear it!</p>
       <div class="button-wrapper">
         <Button>
           <span class="material-icons-outlined">mail</span> Contact me
@@ -128,6 +145,10 @@
   .icons {
     margin-top: 40px;
     font-size: 2rem;
+    width: 750px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
   }
 
   .button-wrapper {

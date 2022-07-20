@@ -9,7 +9,7 @@ import Container1200 from "$lib/container-1200.svelte";
         <a href="/"><img src="images/logos/logo.svg" alt="davejudd.dev logo" /></a>
       </div>
       <div class="nav">
-        <img src="images/icons/hamburger.svg" alt="menu icon" />
+        <img src="images/icons/hamburger-icon.svg" alt="menu icon" />
       </div>
     </div>
   </Container1200>
