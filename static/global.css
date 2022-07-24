@@ -25,7 +25,7 @@ body {
   font-family: Outfit;
   color: #474747;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   body {
     padding: 15px;
   }

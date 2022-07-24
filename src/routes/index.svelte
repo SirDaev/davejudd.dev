@@ -24,10 +24,11 @@
 <section id="jamstack">
   <Container910 class="text-center">
     <div class="content">
-      <h2 class="big-title jamstack-title"><div class="jamstack-blob text-blue">JAM</div> is my stack</h2>
+      <h2 class="big-title jamstack-title"><div class="jamstack-blob text-blue">JAM</div> <span class="stack-text">is my stack</span></h2>
       <p class="p-large"> 
-        I have a passion for building fast fast, scalable, modern websites and web applications.<br />
-        <a href="/">Learn more</a>
+        I have a passion for building fast fast, scalable, modern websites and web applications. I love playing with new technologies and finding the right tool for the job, and my favorite are the Jamstack tools!
+        <!-- <br />
+        <a href="/">Learn more</a> -->
       </p>
       <div class="icons">
         <img src="images/icons/js-icon.svg" alt="javascript icon" />
@@ -55,7 +56,7 @@
   <Container910 class="text-center">
     <div class="content">
       <h2 class="big-title">Let's make<br />something <span class="underline-pink">great</span>!</h2>
-      <p class="p-large">Have an idea for a website or web project? I'd love to hear it!</p>
+      <p class="p-large">Have an idea for a website or web project?<br />I'd love to hear it!</p>
       <div class="button-wrapper">
         <Button>
           <span class="material-icons-outlined">mail</span> Contact me
@@ -67,7 +68,13 @@
 
 <style>
   .content {
-    padding: 150px 0;
+    padding: 80px 0;
+  }
+
+  @media (min-width: 992px) {
+    .content {
+      padding: 150px 0;
+    }
   }
 
   .hero {
@@ -82,7 +89,7 @@
     line-height: 1;
     font-weight: 400;
     margin-bottom: 25px;
-    padding-left: 60px;
+    padding-left: 30px;
   }
 
   .hero-subtitle {
@@ -90,21 +97,32 @@
     font-size: 4rem;
     line-height: 1.2;
     font-weight: 400;
-    padding: 16px 0 20px 50px;
+    padding: 16px 0 20px 22px;
     background-color: #E4E4E4;
     border-left: 10px solid #F7ACD4;
   }
 
-.hero-dave {
-  width: 446px;
-  height: auto;
-  position: absolute;
-  right: 66px;
-  bottom: -96px;
-}
+  .hero-dave {
+    width: 446px;
+    height: auto;
+    position: absolute;
+    right: 66px;
+    bottom: -96px;
+    border-radius: 10% 30%;
+  }
+
+  @media (min-width: 992px) {
+    .hero-title {
+      padding-left: 60px;
+    }
+
+    .hero-subtitle {
+      padding: 16px 0 20px 50px;
+    }
+  }
 
   .big-title {
-    font-size: 9rem;
+    font-size: 6rem;
     line-height: 1;
     font-weight: 400;
     margin-bottom: 60px;
@@ -114,13 +132,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    margin-bottom: 30px;
   }
 
   .jamstack-blob {
     display: flex;
     align-items: center;
-    height: 256px;
+    height: 210px;
     background-image: url('images/shapes/jamstack-blob.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -129,16 +148,68 @@
     line-height: 1;
     font-weight: 700;
     padding-top: 10px;
-    margin: 0 35px 25px 0;
+    margin: 0;
+  }
+
+  @media (min-width: 576px) {
+    .jamstack-blob {
+      margin: 0 35px 25px 0;
+    }
+
+    .jamstack-title {
+      margin-bottom: 20px;
+      flex-direction: row;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .jamstack-blob {
+      height: 256px;
+    }
   }
 
   .icons {
     margin-top: 40px;
     font-size: 2rem;
-    width: 750px;
-    margin: 50px auto 0;
+    width: 100%;
+    max-width: 320px;
+    margin: 30px auto 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icons img {
+    height: 50px;
+    width: auto;
+    margin: 0 10px 20px;
+  }
+
+  @media (min-width: 576px) {
+    .icons {
+      margin: 50px auto 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .icons {
+      max-width: 500px;
+      justify-content: space-between;
+    }
+
+    .icons img {
+      margin: 0;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .icons {
+      max-width: 750px;
+    }
+
+    .icons img {
+      height: 76px;
+    }
   }
 
   .button-wrapper {

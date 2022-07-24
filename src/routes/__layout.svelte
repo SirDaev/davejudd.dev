@@ -22,22 +22,25 @@
   /* Typography */
 
   :global(html) {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  @media (min-width: 992px) {
+    :global(html) {
+      font-size: 10px;
+    }
   }
 
   :global(p) {
     font-size: 1.9rem;
-    line-height: 1.2;
   }
 
   :global(.p-medium) {
     font-size: 2.4rem;
-    line-height: 1.2;
   }
 
   :global(.p-large) {
     font-size: 2.8rem;
-    line-height: 1.2;
   }
 
   :global(a) {
@@ -78,11 +81,18 @@
     position: absolute;
     content: '';
     width: 100%;
-    height: 10px;
+    height: 7px;
     background-color: #F7ACD4;
     left: 0;
-    bottom: 17px;
+    bottom: 9px;
     z-index: -1;
+  }
+
+  @media (min-width: 992px) {
+    :global(.underline-pink):after {
+      height: 8px;
+      bottom: 12px;
+    }
   }
 
   :global(.material-icons-outlined) {
