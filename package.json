@@ -2,16 +2,17 @@
   "name": "davejudd.dev",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview"
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "vite package",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-netlify": "^1.0.0-next.70",
-    "@sveltejs/kit": "1.0.0-next.260",
-    "svelte": "^3.44.0"
+    "@sveltejs/kit": "^1.0.0-next.392",
+    "svelte": "^3.44.0",
+    "vite": "^3.0.2"
   },
   "type": "module",
   "dependencies": {
