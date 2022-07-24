@@ -3,9 +3,12 @@
 </svelte:head>
 
 <script>
+  import '@fontsource/Outfit/400.css';
+  import "@fontsource/Outfit/600.css";
+  import "@fontsource/Outfit/700.css";
+  import "@fontsource/material-icons-outlined";
   import Header from '$lib/header.svelte';
   import Footer from '$lib/footer.svelte';
-  import "../global.css";
 </script>
 
 <Header />
