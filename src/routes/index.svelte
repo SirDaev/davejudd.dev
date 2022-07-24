@@ -140,7 +140,7 @@
     display: flex;
     align-items: center;
     height: 210px;
-    background-image: url('images/shapes/jamstack-blob.svg');
+    background-image: url('/images/shapes/jamstack-blob.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 92%;
