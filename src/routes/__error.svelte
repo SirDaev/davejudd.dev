@@ -42,9 +42,12 @@
 
   .links {
     margin: 20px 0;
+    list-style-type: none;
   }
 
   .links a {
     font-size: 2.5rem;
+    display: inline-block;
+    margin: 0 20px;
   }
 </style>
