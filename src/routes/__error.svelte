@@ -43,6 +43,7 @@
   .links {
     margin: 20px 0;
     list-style-type: none;
+    padding: 0;
   }
 
   .links a {
