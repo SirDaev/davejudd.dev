@@ -43,6 +43,19 @@
   </Container910>
 </section>
 
+<section id="fullstack">
+  <Container910 class="text-center">
+    <div class="content">
+      <h2 class="big-title">I'll dive in to <span class="underline-pink">anything</span></h2>
+      <p class="p-large"> 
+        Whether it's a new animation feature with Three.js, or a database-driven web dashboard, I love working with all web dev-related technologies.
+      </p>
+      <div class="dino-animation">
+        <img src="images/icons/trex-dinosaur.gif" alt="animated t-rex" />
+      </div>
+  </Container910>
+</section>
+
 <section id="testimonials">
   <Container910 class="text-center">
     <div class="content">
@@ -215,4 +228,22 @@
   .button-wrapper {
     margin-top: 40px;
   }
+
+.dino-animation {
+  margin-top: 40px;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 320px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dino-animation img {
+  display: block;
+  width: 200px;
+  border-radius: 12px;
+  border: 4px solid #474747;
+}
 </style>
