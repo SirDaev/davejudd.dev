@@ -4,13 +4,14 @@
 
 <script>
   import Container910 from '$lib/container-910.svelte';
+  import Container_1300 from '$lib/container-1300.svelte';
   import Button from '$lib/button.svelte';
   import Testimonial from '$lib/testimonial.svelte';
   import dave from '$lib/assets/dave-sitting-with-laptop.jpg'
 </script>
 
 <section id="hero">
-  <div class="hero">
+  <Container_1300>
     <div class="content">
       <h1 class="hero-title text-blue">Hi, my<br />name is <span class="text-semibold">Dave</span>.</h1>
       <h2 class="hero-subtitle">
@@ -18,7 +19,7 @@
         <img class="hero-dave" src={dave} alt="dave sitting at a table with laptop" />
       </h2>
     </div>
-  </div>
+  </Container_1300>
 </section>
 
 <section id="jamstack">
@@ -88,13 +89,6 @@
     .content {
       padding: 150px 0;
     }
-  }
-
-  .hero {
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 
   .hero-title {
